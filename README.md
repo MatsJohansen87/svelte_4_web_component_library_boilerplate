@@ -1,8 +1,10 @@
 # 🌐 svelte-web-components-template
 
-> A base template for building a shareable web components library using [Vite](https://vitejs.dev), [Svelte](https://svelte.dev) and [TypeScript](https://www.typescriptlang.org).
+> A base template for building a shareable web components library using [Vite](https://vitejs.dev), [Svelte 4](https://svelte.dev) and [TypeScript](https://www.typescriptlang.org).
 
-This templates generates vanilla [web components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) than can be used with [plain HTML](https://www.webcomponents.org/introduction#how-do-i-use-a-web-component-) or within any major frameworks, such as React, Angular, Vue or Svelte (see [compatibility](https://custom-elements-everywhere.com/)).
+This templates generates vanilla [web components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) that can be used with [plain HTML](https://www.webcomponents.org/introduction#how-do-i-use-a-web-component-) or within any major frameworks, such as React, Angular, Vue or Svelte (see [compatibility](https://custom-elements-everywhere.com/)).
+
+It is based on [sinedieds](https://github.com/sinedied/svelte-web-components-template) version for Svelte 3 and shows a simple solution of two components using the same store.
 
 ## How to use this template
 
@@ -11,7 +13,7 @@ You can directly create a new GitHub repo from this template by selecting the **
 You can also clone it locally with the following commands:
 
 ```bash
-npx degit sinedied/svelte-web-components-template#main my-component-lib
+npx degit https://github.com/matsjohansen87/svelte_4_web_component_library_boilerplate#main my-component-lib
 cd my-component-lib
 npm install
 ```

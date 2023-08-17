@@ -1,6 +1,5 @@
 <script lang="ts">
-  // import '../../lib';
-  import '../../../dist/lib/my-library.js';
+  import '../../lib';
 </script>
 
 <main>
